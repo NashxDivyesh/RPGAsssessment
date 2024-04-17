@@ -1,7 +1,6 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using rpgAPI.Model;
 
 namespace rpgAPI.Service
 {
@@ -55,7 +54,51 @@ namespace rpgAPI.Service
 
             return serviceResponse;
         }
-        
-        
+
+        public ServiceResponse<Character> UpdateCharacter(Character newCharacter)
+        {
+            var character = _characterList.FirstOrDefault(c=>c.Id==newCharacter.Id);
+
+            var serviceResponse = new ServiceResponse<Character>();
+
+            if (character == null)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = "Id Doesn't Exist";
+
+                return serviceResponse;
+            }
+
+            character.Name = newCharacter.Name;
+            character.CharacterClass = newCharacter.CharacterClass;
+            character.Strength = newCharacter.Strength;
+            character.Defense = newCharacter.Defense;
+            character.HitPoint = newCharacter.HitPoint;
+
+            serviceResponse.Data = character;
+
+            return serviceResponse;
+        }
+
+        public ServiceResponse<Character> DeleteCharacterById(int id)
+        {
+
+            var character = _characterList.FirstOrDefault(c=>c.Id==id);
+
+            var serviceResponse = new ServiceResponse<Character>();
+
+            if (character == null)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = "Id Doesn't Exist";
+
+                return serviceResponse;
+            }
+
+            _characterList.Remove(character);
+            
+            serviceResponse.Data = character;
+            return serviceResponse;
+        }
     }
 }

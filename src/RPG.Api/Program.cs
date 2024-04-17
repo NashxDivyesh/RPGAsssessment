@@ -1,5 +1,4 @@
-global using rpgAPI.Model;
-global using rpgAPI.Service;
+using rpgAPI.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 

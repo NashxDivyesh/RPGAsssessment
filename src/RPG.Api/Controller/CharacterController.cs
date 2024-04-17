@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using rpgAPI.Model;
+using rpgAPI.Service;
 
 
 namespace rpgAPI.Controller
@@ -35,6 +37,16 @@ namespace rpgAPI.Controller
         public ActionResult<ServiceResponse<List<Character>>> PostCharacter(Character  newCharacter)
         {
             return Ok(_characterService.AddCharacter(newCharacter));
-        }       
+        } 
+
+        [HttpPut]
+        public ActionResult<ServiceResponse<Character>> UpdateCharacter(Character newCharacter){
+            return Ok(_characterService.UpdateCharacter(newCharacter));
+        }     
+
+        [HttpDelete]
+        public ActionResult<ServiceResponse<Character>> DeleteCharacter(int id){
+            return Ok(_characterService.DeleteCharacterById(id));
+        }
     }
 }

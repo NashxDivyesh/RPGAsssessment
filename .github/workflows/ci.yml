@@ -1,0 +1,43 @@
+name: CI Build
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+  pull_request:
+    branches: [ main]
+  workflow_dispatch:
+
+  concurrency:
+    group: ${{github.workflow}}-${{github.ref == 'refs/heads/main' && github.run_id || github.event.pull_request.number || github.ref}}
+    cancel-in-progress: true
+  
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Build
+      run: dotnet build ./RPG.sln
+    - name: Test
+      run: dotnet test ./RPG.sln --logger "trx;LogFileName=test-results.trx" --results-directory "TestResults" || true
+    
+    - name: "Upload Test Results"
+      uses: actions/upload-artifacts@v3
+      with:
+        name: test-results
+        path: ./TestResults
+
+    - name: "Test Report"
+      uses: dorny/test-reporter@v1
+      with:
+        name: Tests Report
+        path: "./TestResults/test-results.trx" 
+        reporter: dotnet-trx
+        fail-on-error: true
