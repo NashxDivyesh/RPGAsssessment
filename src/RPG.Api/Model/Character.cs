@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Diagnostics.CodeAnalysis;
 
 namespace rpgAPI.Model
 {
+    [ExcludeFromCodeCoverage]
     public class Character
     {
         public int Id { get; set; }

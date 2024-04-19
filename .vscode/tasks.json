@@ -8,8 +8,8 @@
             "command": "reportgenerator",
             "type": "shell",
             "args": [
-                "-reports:${workspaceFolder}/tests/rpgAPITest/lcov.info",
-                "-targetdir:${workspaceFolder}/tests/rpgAPITest/covstats"
+                "-reports:${workspaceFolder}/TestResults/**/lcov.info",
+                "-targetdir:${workspaceFolder}/TestResults/HtmlReport"
             ],
             "problemMatcher": [],
             "group": {
