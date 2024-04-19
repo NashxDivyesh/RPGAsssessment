@@ -1,3 +1,4 @@
+[![CI Build](https://github.com/NashxDivyesh/RPGAsssessment/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/NashxDivyesh/RPGAsssessment/actions/workflows/ci.yaml)
 # RPGAsssessment
 
 ### To build the project
