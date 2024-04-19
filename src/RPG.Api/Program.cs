@@ -1,5 +1,5 @@
-using System.Diagnostics.CodeAnalysis;
 using rpgAPI.Service;
+using System.Diagnostics.CodeAnalysis;
 
 [ExcludeFromCodeCoverage]
 public class Program

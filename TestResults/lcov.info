@@ -1,0 +1,149 @@
+SF:C:\Users\Divyesh\source\repos\RPGAsssessment\src\RPG.Api\Service\CharacterService.cs
+FN:16,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::GetAllCharacter()
+FNDA:1,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::GetAllCharacter()
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+FN:28,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::AddCharacter(rpgAPI.Model.Character)
+FNDA:4,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::AddCharacter(rpgAPI.Model.Character)
+DA:29,4
+DA:30,4
+DA:32,4
+DA:33,4
+DA:34,4
+DA:35,4
+DA:36,4
+DA:37,4
+DA:38,4
+DA:40,4
+FN:42,rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character> rpgAPI.Service.CharacterService::GetCharacterById(System.Int32)
+FNDA:2,rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character> rpgAPI.Service.CharacterService::GetCharacterById(System.Int32)
+DA:43,2
+DA:44,9
+DA:46,2
+DA:48,2
+DA:49,1
+DA:50,1
+DA:51,1
+DA:53,1
+DA:56,1
+DA:57,1
+DA:58,1
+DA:60,1
+DA:61,2
+BRDA:48,49,0,1
+BRDA:48,49,1,1
+FN:63,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::UpdateCharacter(rpgAPI.Model.Character)
+FNDA:2,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::UpdateCharacter(rpgAPI.Model.Character)
+DA:64,2
+DA:65,8
+DA:67,2
+DA:69,2
+DA:70,1
+DA:71,1
+DA:72,1
+DA:73,1
+DA:75,4
+DA:76,1
+DA:78,1
+DA:79,1
+DA:80,1
+DA:82,1
+DA:83,2
+BRDA:69,49,0,1
+BRDA:69,49,1,1
+FN:85,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::DeleteCharacterById(System.Int32)
+FNDA:2,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::DeleteCharacterById(System.Int32)
+DA:86,2
+DA:88,7
+DA:90,2
+DA:92,2
+DA:93,1
+DA:94,1
+DA:95,1
+DA:97,1
+DA:99,6
+DA:101,1
+DA:102,1
+DA:103,1
+DA:105,1
+DA:106,2
+BRDA:92,49,0,1
+BRDA:92,49,1,1
+FN:8,System.Void rpgAPI.Service.CharacterService::.cctor()
+FNDA:1,System.Void rpgAPI.Service.CharacterService::.cctor()
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+LF:66
+LH:66
+BRF:6
+BRH:6
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Users\Divyesh\source\repos\RPGAsssessment\src\RPG.Api\Controller\CharacterController.cs
+FN:20,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::GetCharacters()
+FNDA:1,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::GetCharacters()
+DA:21,1
+DA:22,1
+DA:23,1
+FN:27,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character>> rpgAPI.Controller.CharacterController::GetId(System.Int32)
+FNDA:2,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character>> rpgAPI.Controller.CharacterController::GetId(System.Int32)
+DA:28,2
+DA:30,2
+DA:32,2
+DA:33,1
+DA:34,1
+DA:37,1
+DA:38,2
+BRDA:32,25,0,1
+BRDA:32,25,1,1
+FN:41,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::PostCharacter(rpgAPI.Model.Character)
+FNDA:1,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::PostCharacter(rpgAPI.Model.Character)
+DA:42,1
+DA:43,1
+DA:44,1
+FN:47,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::UpdateCharacter(rpgAPI.Model.Character)
+FNDA:2,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::UpdateCharacter(rpgAPI.Model.Character)
+DA:48,2
+DA:49,2
+DA:51,2
+DA:52,1
+DA:53,1
+DA:56,1
+DA:57,2
+BRDA:51,25,0,1
+BRDA:51,25,1,1
+FN:60,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::DeleteCharacter(System.Int32)
+FNDA:2,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::DeleteCharacter(System.Int32)
+DA:61,2
+DA:62,2
+DA:64,2
+DA:65,1
+DA:66,1
+DA:70,1
+DA:71,2
+BRDA:64,25,0,1
+BRDA:64,25,1,1
+FN:13,System.Void rpgAPI.Controller.CharacterController::.ctor(rpgAPI.Service.ICharacterService)
+FNDA:8,System.Void rpgAPI.Controller.CharacterController::.ctor(rpgAPI.Service.ICharacterService)
+DA:14,8
+DA:15,8
+DA:16,8
+DA:17,8
+LF:31
+LH:31
+BRF:6
+BRH:6
+FNF:6
+FNH:6
+end_of_record
