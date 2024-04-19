@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: dotnet build ./RPG.sln
     - name: Test
-      run: dotnet test ./RPG.sln --logger "trx;LogFileName=test-results.trx" --results-directory "TestResults" || true
+      run: dotnet test ./RPG.sln /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=../../TestResults/lcov.info --logger "trx;LogFileName=test-results.trx" --results-directory "TestResults"  || true
     
     - name: "Upload Test Results"
       uses: actions/upload-artifact@v3
