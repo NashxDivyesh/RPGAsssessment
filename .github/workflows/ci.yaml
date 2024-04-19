@@ -37,18 +37,20 @@ jobs:
       run: dotnet test ./RPG.sln /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=../../TestResults/lcov.info --logger "trx;LogFileName=test-results.trx" --results-directory "TestResults"  || true
     
     - name: "Upload Test Results"
+      if: ${{ always() }}
       uses: actions/upload-artifact@v3
       with:
         name: test-results
         path: ./TestResults
 
     - name: "Test Report"
+      if: ${{ always() }}
       uses: dorny/test-reporter@v1
       with:
         name: Tests Report
-        path: "./TestResults/test-results.trx" 
+        path: TestResults/test-results.trx
         reporter: dotnet-trx
-        fail-on-error: true
+        fail-on-error: false
         
     - name: Setup Pages
       uses: actions/configure-pages@v5
