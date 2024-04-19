@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using rpgAPI.Model;
 
 namespace rpgAPI.Service
@@ -15,9 +11,9 @@ namespace rpgAPI.Service
 
         ServiceResponse<Character> GetCharacterById(int id);
 
-        ServiceResponse<Character> UpdateCharacter(Character newCharacter);
+        ServiceResponse<List<Character>> UpdateCharacter(Character newCharacter);
 
-        ServiceResponse<Character> DeleteCharacterById(int id);
-        
+        ServiceResponse<List<Character>> DeleteCharacterById(int id);
+
     }
 }

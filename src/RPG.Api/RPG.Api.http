@@ -1,13 +1,14 @@
-@rpgAPI_HostAddress = http://localhost:5252
+@rpgAPI_HostAddress = https://localhost:7064
 @id = 1
 
-GET {{rpgAPI_HostAddress}}/weatherforecast/
+GET {{rpgAPI_HostAddress}}/api/Character/
 Accept: application/json
 
 ###
 
+
 ### Update Character
-PUT {rpgAPI_HostAddress}/api/Character/UpdateCharacter
+PUT {{rpgAPI_HostAddress}}/api/Character/UpdateCharacter
 
 
 ### Delete Character

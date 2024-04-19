@@ -19,16 +19,21 @@ namespace rpgAPI.Service
             {
                 Data = _characterList
             };
+
+            serviceResponse.Success = true;
+            serviceResponse.Message = "Ok";
             return serviceResponse;
         }
 
         public ServiceResponse<List<Character>> AddCharacter(Character newCharacter)
-        { 
-             _characterList.Add(newCharacter);
-            
+        {
+            _characterList.Add(newCharacter);
+
             var serviceResponse = new ServiceResponse<List<Character>>()
             {
-                Data = _characterList
+                Data = _characterList,
+                Success = true,
+                Message = "Ok"
             };
             return serviceResponse;
 
@@ -36,66 +41,67 @@ namespace rpgAPI.Service
 
         public ServiceResponse<Character> GetCharacterById(int id)
         {
-            var character = _characterList.FirstOrDefault(c=>c.Id==id);
+            var character = _characterList.FirstOrDefault(c => c.Id == id);
 
             var serviceResponse = new ServiceResponse<Character>();
 
             if (character == null)
             {
                 serviceResponse.Success = false;
-                serviceResponse.Message = "Id Doesn't Exist";
+                serviceResponse.Message = "No character found";
 
                 return serviceResponse;
             }
 
+            serviceResponse.Success = true;
+            serviceResponse.Message = "Ok";
             serviceResponse.Data = character;
 
             return serviceResponse;
         }
 
-        public ServiceResponse<Character> UpdateCharacter(Character newCharacter)
+        public ServiceResponse<List<Character>> UpdateCharacter(Character newCharacter)
         {
-            var character = _characterList.FirstOrDefault(c=>c.Id==newCharacter.Id);
+            var character = _characterList.FirstOrDefault(c => c.Id == newCharacter.Id);
 
-            var serviceResponse = new ServiceResponse<Character>();
+            var serviceResponse = new ServiceResponse<List<Character>>();
 
             if (character == null)
             {
                 serviceResponse.Success = false;
-                serviceResponse.Message = "Id Doesn't Exist";
-
+                serviceResponse.Message = "No character found";
                 return serviceResponse;
             }
+            _characterList.RemoveAll(c => c.Id == newCharacter.Id);
+            _characterList.Add(newCharacter);
 
-            character.Name = newCharacter.Name;
-            character.CharacterClass = newCharacter.CharacterClass;
-            character.Strength = newCharacter.Strength;
-            character.Defense = newCharacter.Defense;
-            character.HitPoint = newCharacter.HitPoint;
-
-            serviceResponse.Data = character;
+            serviceResponse.Success = true;
+            serviceResponse.Message = "Ok";
+            serviceResponse.Data = _characterList;
 
             return serviceResponse;
         }
 
-        public ServiceResponse<Character> DeleteCharacterById(int id)
+        public ServiceResponse<List<Character>> DeleteCharacterById(int id)
         {
 
-            var character = _characterList.FirstOrDefault(c=>c.Id==id);
+            var character = _characterList.FirstOrDefault(c => c.Id == id);
 
-            var serviceResponse = new ServiceResponse<Character>();
+            var serviceResponse = new ServiceResponse<List<Character>>();
 
             if (character == null)
             {
                 serviceResponse.Success = false;
-                serviceResponse.Message = "Id Doesn't Exist";
+                serviceResponse.Message = "No character found";
 
                 return serviceResponse;
             }
+            _characterList.RemoveAll(c => c.Id == id);
 
-            _characterList.Remove(character);
-            
-            serviceResponse.Data = character;
+            serviceResponse.Success = true;
+            serviceResponse.Message = "Ok";
+            serviceResponse.Data = _characterList;
+
             return serviceResponse;
         }
     }
