@@ -64,7 +64,7 @@ public class CharacterControllerTest
     }
 
     [Fact]
-    public void GetCharacterByIdGivenInvalidRequestGetSucessResponse()
+    public void GetCharacterByIdGivenInvalidRequestReturnsNotFound()
     {
         //Arrange
         var character = CharacterGenerator.GetValidCharacter();
@@ -145,7 +145,7 @@ public class CharacterControllerTest
     }
 
     [Fact]
-    public void UpdateCharacterGivenInvalidRequestGetSucessResponse()
+    public void UpdateCharacterGivenInvalidRequestReturnsNotFound()
     {
         //Arrange
         var character = CharacterGenerator.GetValidCharacter();
@@ -199,7 +199,7 @@ public class CharacterControllerTest
     }
 
     [Fact]
-    public void DeleteCharacterGivenInvalidRequestGetSucessResponse()
+    public void DeleteCharacterGivenInvalidRequestReturnsNotFound()
     {
         //Arrange
         var character = CharacterGenerator.GetValidCharacter();
