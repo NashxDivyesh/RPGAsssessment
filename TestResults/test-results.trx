@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="adefc700-231e-4153-99f8-cb16596174c9" name="Divyesh@DIVYESH 2024-04-19 21:52:44" runUser="DIVYESH\Divyesh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-04-19T21:52:44.4596564+05:30" queuing="2024-04-19T21:52:44.4596568+05:30" start="2024-04-19T21:52:43.6298826+05:30" finish="2024-04-19T21:52:44.5033655+05:30" />
+  <TestSettings name="default" id="4971ebb8-c699-41cc-a38a-0551b482f3ff">
+    <Deployment runDeploymentRoot="Divyesh_DIVYESH_2024-04-19_21_52_44" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6c1d4575-5cb6-4f3e-abe9-1afa7a8b93f4" testId="ee71296a-65ad-7deb-95ad-4f4c80f1746d" testName="RPG.Api.UnitTests.CharacterControllerTest.UpdateCharacterGivenInvalidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0012789" startTime="2024-04-19T21:52:44.4227149+05:30" endTime="2024-04-19T21:52:44.4227149+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c1d4575-5cb6-4f3e-abe9-1afa7a8b93f4" />
+    <UnitTestResult executionId="4012a478-843f-4d83-9c7a-e42618cc6271" testId="42ada7d2-8c31-cdf4-5d25-7fdec66724ee" testName="RPG.Api.UnitTests.CharacterControllerTest.DeleteCharacterGivenInvalidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0009388" startTime="2024-04-19T21:52:44.4226051+05:30" endTime="2024-04-19T21:52:44.4226051+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4012a478-843f-4d83-9c7a-e42618cc6271" />
+    <UnitTestResult executionId="e4329b69-9f3c-45d5-982a-f16977101027" testId="f6f60531-c127-d0cf-15ca-9e89ce2c94d9" testName="RPG.Api.UnitTests.CharacterServiceTest.DeleteCharacterByIdGivenInvalidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0001111" startTime="2024-04-19T21:52:44.3374391+05:30" endTime="2024-04-19T21:52:44.3374392+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4329b69-9f3c-45d5-982a-f16977101027" />
+    <UnitTestResult executionId="8f5ff468-cacd-47a4-8b05-01628e5a2ccc" testId="de11d895-9ebb-6831-e39a-1cc1dfab4568" testName="RPG.Api.UnitTests.CharacterControllerTest.AddCharacterGivenValidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0774394" startTime="2024-04-19T21:52:44.3936045+05:30" endTime="2024-04-19T21:52:44.3936048+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f5ff468-cacd-47a4-8b05-01628e5a2ccc" />
+    <UnitTestResult executionId="6abf857d-e985-47f9-95c9-414f86a6a958" testId="76dfc723-1d45-5c84-4cf0-8b303282968f" testName="RPG.Api.UnitTests.CharacterControllerTest.UpdateCharacterGivenValidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0013480" startTime="2024-04-19T21:52:44.4225730+05:30" endTime="2024-04-19T21:52:44.4225731+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6abf857d-e985-47f9-95c9-414f86a6a958" />
+    <UnitTestResult executionId="7472ce84-4df9-4e04-b0ea-9d1867bfab08" testId="384f8726-14e6-ff4d-6438-d9a80ad1db16" testName="RPG.Api.UnitTests.CharacterServiceTest.AddCharacterGivenValidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0003485" startTime="2024-04-19T21:52:44.3336351+05:30" endTime="2024-04-19T21:52:44.3336352+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7472ce84-4df9-4e04-b0ea-9d1867bfab08" />
+    <UnitTestResult executionId="b98e8763-9855-4443-886a-0a4d3703cc82" testId="e96a54e0-9af2-bd8f-ce71-56ad14931cd0" testName="RPG.Api.UnitTests.CharacterServiceTest.GetCharacterByIdGivenValidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0094336" startTime="2024-04-19T21:52:44.3291287+05:30" endTime="2024-04-19T21:52:44.3291544+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b98e8763-9855-4443-886a-0a4d3703cc82" />
+    <UnitTestResult executionId="7d2d8c61-51e8-4a16-9150-d1bb85046705" testId="f9b1338a-6c5a-fcb4-3545-72c82e65a889" testName="RPG.Api.UnitTests.CharacterControllerTest.GetCharacterGivenValidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0022661" startTime="2024-04-19T21:52:44.4226848+05:30" endTime="2024-04-19T21:52:44.4226848+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d2d8c61-51e8-4a16-9150-d1bb85046705" />
+    <UnitTestResult executionId="54ac2a85-009f-44a1-8317-038ae3a0134c" testId="da91abd6-5d79-8ef3-c241-43034fe09407" testName="RPG.Api.UnitTests.CharacterControllerTest.DeleteCharacterGivenValidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0015770" startTime="2024-04-19T21:52:44.4225326+05:30" endTime="2024-04-19T21:52:44.4225327+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54ac2a85-009f-44a1-8317-038ae3a0134c" />
+    <UnitTestResult executionId="7ba9105a-2e83-4434-9adc-d4710f4de2e0" testId="345175eb-a4cb-e1fb-9676-9ce5c32a470b" testName="RPG.Api.UnitTests.CharacterServiceTest.GetCharacterByIdGivenInvalidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0000975" startTime="2024-04-19T21:52:44.3337781+05:30" endTime="2024-04-19T21:52:44.3337782+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ba9105a-2e83-4434-9adc-d4710f4de2e0" />
+    <UnitTestResult executionId="31a86d2c-ba6d-4e5f-b84e-a7d4c65dcb19" testId="4055ba0b-4114-d6ac-4729-e56bc90e13cb" testName="RPG.Api.UnitTests.CharacterServiceTest.UpdateCharacterGivenInvalidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0010589" startTime="2024-04-19T21:52:44.3332567+05:30" endTime="2024-04-19T21:52:44.3332569+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31a86d2c-ba6d-4e5f-b84e-a7d4c65dcb19" />
+    <UnitTestResult executionId="31054be8-7c3d-4719-9a51-de4966fbef47" testId="8cacaa82-fb75-4e98-6aee-0c1de152ac0f" testName="RPG.Api.UnitTests.CharacterControllerTest.GetCharacterByIdGivenInvalidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0025369" startTime="2024-04-19T21:52:44.4223676+05:30" endTime="2024-04-19T21:52:44.4223677+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31054be8-7c3d-4719-9a51-de4966fbef47" />
+    <UnitTestResult executionId="ac48bb68-3f75-4198-82b7-fd3c0650e9de" testId="3c523154-5796-cbbe-d246-ca1809718611" testName="RPG.Api.UnitTests.CharacterServiceTest.UpdateCharacterGivenValidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0002385" startTime="2024-04-19T21:52:44.3378072+05:30" endTime="2024-04-19T21:52:44.3378073+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac48bb68-3f75-4198-82b7-fd3c0650e9de" />
+    <UnitTestResult executionId="b210db85-9d3f-428e-b93a-eee95aeab69e" testId="379bde7d-624a-bb2a-5faa-89d0b0ecb70e" testName="RPG.Api.UnitTests.CharacterControllerTest.GetCharacterByIdGivenValidRequestGetSucessResponse" computerName="DIVYESH" duration="00:00:00.0009633" startTime="2024-04-19T21:52:44.4226508+05:30" endTime="2024-04-19T21:52:44.4226508+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b210db85-9d3f-428e-b93a-eee95aeab69e" />
+    <UnitTestResult executionId="b955de5f-624f-4004-b98f-9bbc9a44fc96" testId="41d80660-7cfc-b166-c57a-d6edd7703b06" testName="RPG.Api.UnitTests.CharacterServiceTest.GetAllCharacterGivenValidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0003726" startTime="2024-04-19T21:52:44.3371859+05:30" endTime="2024-04-19T21:52:44.3371861+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b955de5f-624f-4004-b98f-9bbc9a44fc96" />
+    <UnitTestResult executionId="701b0d0d-e023-421f-9e6b-057cdb90f2dd" testId="50b10605-b43c-b42b-6cb2-f968ec9847cd" testName="RPG.Api.UnitTests.CharacterServiceTest.DeleteCharacterByIdGivenValidRequestGetResult" computerName="DIVYESH" duration="00:00:00.0029194" startTime="2024-04-19T21:52:44.3367639+05:30" endTime="2024-04-19T21:52:44.3367641+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="701b0d0d-e023-421f-9e6b-057cdb90f2dd" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.DeleteCharacterByIdGivenValidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="50b10605-b43c-b42b-6cb2-f968ec9847cd">
+      <Execution id="701b0d0d-e023-421f-9e6b-057cdb90f2dd" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="DeleteCharacterByIdGivenValidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.DeleteCharacterByIdGivenInvalidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="f6f60531-c127-d0cf-15ca-9e89ce2c94d9">
+      <Execution id="e4329b69-9f3c-45d5-982a-f16977101027" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="DeleteCharacterByIdGivenInvalidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.GetCharacterByIdGivenInvalidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="345175eb-a4cb-e1fb-9676-9ce5c32a470b">
+      <Execution id="7ba9105a-2e83-4434-9adc-d4710f4de2e0" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="GetCharacterByIdGivenInvalidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.GetAllCharacterGivenValidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="41d80660-7cfc-b166-c57a-d6edd7703b06">
+      <Execution id="b955de5f-624f-4004-b98f-9bbc9a44fc96" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="GetAllCharacterGivenValidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.UpdateCharacterGivenValidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="76dfc723-1d45-5c84-4cf0-8b303282968f">
+      <Execution id="6abf857d-e985-47f9-95c9-414f86a6a958" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="UpdateCharacterGivenValidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.UpdateCharacterGivenInvalidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="4055ba0b-4114-d6ac-4729-e56bc90e13cb">
+      <Execution id="31a86d2c-ba6d-4e5f-b84e-a7d4c65dcb19" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="UpdateCharacterGivenInvalidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.GetCharacterByIdGivenInvalidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="8cacaa82-fb75-4e98-6aee-0c1de152ac0f">
+      <Execution id="31054be8-7c3d-4719-9a51-de4966fbef47" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="GetCharacterByIdGivenInvalidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.GetCharacterByIdGivenValidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="e96a54e0-9af2-bd8f-ce71-56ad14931cd0">
+      <Execution id="b98e8763-9855-4443-886a-0a4d3703cc82" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="GetCharacterByIdGivenValidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.GetCharacterByIdGivenValidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="379bde7d-624a-bb2a-5faa-89d0b0ecb70e">
+      <Execution id="b210db85-9d3f-428e-b93a-eee95aeab69e" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="GetCharacterByIdGivenValidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.DeleteCharacterGivenValidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="da91abd6-5d79-8ef3-c241-43034fe09407">
+      <Execution id="54ac2a85-009f-44a1-8317-038ae3a0134c" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="DeleteCharacterGivenValidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.AddCharacterGivenValidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="384f8726-14e6-ff4d-6438-d9a80ad1db16">
+      <Execution id="7472ce84-4df9-4e04-b0ea-9d1867bfab08" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="AddCharacterGivenValidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.UpdateCharacterGivenInvalidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="ee71296a-65ad-7deb-95ad-4f4c80f1746d">
+      <Execution id="6c1d4575-5cb6-4f3e-abe9-1afa7a8b93f4" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="UpdateCharacterGivenInvalidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.AddCharacterGivenValidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="de11d895-9ebb-6831-e39a-1cc1dfab4568">
+      <Execution id="8f5ff468-cacd-47a4-8b05-01628e5a2ccc" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="AddCharacterGivenValidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterServiceTest.UpdateCharacterGivenValidRequestGetResult" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="3c523154-5796-cbbe-d246-ca1809718611">
+      <Execution id="ac48bb68-3f75-4198-82b7-fd3c0650e9de" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterServiceTest" name="UpdateCharacterGivenValidRequestGetResult" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.GetCharacterGivenValidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="f9b1338a-6c5a-fcb4-3545-72c82e65a889">
+      <Execution id="7d2d8c61-51e8-4a16-9150-d1bb85046705" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="GetCharacterGivenValidRequestGetSucessResponse" />
+    </UnitTest>
+    <UnitTest name="RPG.Api.UnitTests.CharacterControllerTest.DeleteCharacterGivenInvalidRequestGetSucessResponse" storage="c:\users\divyesh\source\repos\rpgasssessment\tests\rpg.api.unittests\bin\debug\net8.0\rpg.api.unittests.dll" id="42ada7d2-8c31-cdf4-5d25-7fdec66724ee">
+      <Execution id="4012a478-843f-4d83-9c7a-e42618cc6271" />
+      <TestMethod codeBase="C:\Users\Divyesh\source\repos\RPGAsssessment\tests\RPG.Api.UnitTests\bin\Debug\net8.0\RPG.Api.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="RPG.Api.UnitTests.CharacterControllerTest" name="DeleteCharacterGivenInvalidRequestGetSucessResponse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ee71296a-65ad-7deb-95ad-4f4c80f1746d" executionId="6c1d4575-5cb6-4f3e-abe9-1afa7a8b93f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42ada7d2-8c31-cdf4-5d25-7fdec66724ee" executionId="4012a478-843f-4d83-9c7a-e42618cc6271" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6f60531-c127-d0cf-15ca-9e89ce2c94d9" executionId="e4329b69-9f3c-45d5-982a-f16977101027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de11d895-9ebb-6831-e39a-1cc1dfab4568" executionId="8f5ff468-cacd-47a4-8b05-01628e5a2ccc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76dfc723-1d45-5c84-4cf0-8b303282968f" executionId="6abf857d-e985-47f9-95c9-414f86a6a958" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="384f8726-14e6-ff4d-6438-d9a80ad1db16" executionId="7472ce84-4df9-4e04-b0ea-9d1867bfab08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e96a54e0-9af2-bd8f-ce71-56ad14931cd0" executionId="b98e8763-9855-4443-886a-0a4d3703cc82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9b1338a-6c5a-fcb4-3545-72c82e65a889" executionId="7d2d8c61-51e8-4a16-9150-d1bb85046705" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da91abd6-5d79-8ef3-c241-43034fe09407" executionId="54ac2a85-009f-44a1-8317-038ae3a0134c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="345175eb-a4cb-e1fb-9676-9ce5c32a470b" executionId="7ba9105a-2e83-4434-9adc-d4710f4de2e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4055ba0b-4114-d6ac-4729-e56bc90e13cb" executionId="31a86d2c-ba6d-4e5f-b84e-a7d4c65dcb19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cacaa82-fb75-4e98-6aee-0c1de152ac0f" executionId="31054be8-7c3d-4719-9a51-de4966fbef47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c523154-5796-cbbe-d246-ca1809718611" executionId="ac48bb68-3f75-4198-82b7-fd3c0650e9de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="379bde7d-624a-bb2a-5faa-89d0b0ecb70e" executionId="b210db85-9d3f-428e-b93a-eee95aeab69e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41d80660-7cfc-b166-c57a-d6edd7703b06" executionId="b955de5f-624f-4004-b98f-9bbc9a44fc96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50b10605-b43c-b42b-6cb2-f968ec9847cd" executionId="701b0d0d-e023-421f-9e6b-057cdb90f2dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.2)&#xD;
+[xUnit.net 00:00:00.09]   Discovering: RPG.Api.UnitTests&#xD;
+[xUnit.net 00:00:00.13]   Discovered:  RPG.Api.UnitTests&#xD;
+[xUnit.net 00:00:00.13]   Starting:    RPG.Api.UnitTests&#xD;
+[xUnit.net 00:00:00.29]   Finished:    RPG.Api.UnitTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
