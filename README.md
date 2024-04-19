@@ -13,4 +13,6 @@
 
 `reportgenerator -reports:TestResults/**/lcov.info -targetdir:TestResults/HtmlReport`
 
-[<img src="test-coverage-report.png">](https://github.com/NashxDivyesh/RPGAsssessment/)
+# You can access Code Coverage report [here](https://nashxdivyesh.github.io/RPGAsssessment/)
+
+[<img src="test-coverage-report.png">](https://nashxdivyesh.github.io/RPGAsssessment/)
