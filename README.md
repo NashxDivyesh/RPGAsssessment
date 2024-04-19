@@ -16,3 +16,8 @@
 # You can access Code Coverage report [here](https://nashxdivyesh.github.io/RPGAsssessment/)
 
 [<img src="test-coverage-report.png">](https://nashxdivyesh.github.io/RPGAsssessment/)
+
+# GitHub Actions
+
+1. CI pipeline to build and test solution with test report on each run - [Click here](https://github.com/NashxDivyesh/RPGAsssessment/actions/runs/8757050222/job/24034898473)
+2. Deploy generated report to GitHub Pages - https://nashxdivyesh.github.io/RPGAsssessment/)
